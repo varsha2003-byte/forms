@@ -1,0 +1,81 @@
+body{
+    background-image :url('bg.jpg');
+    background-size: cover;
+      
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: black;
+  }
+  h2{
+    font-family: 'matemasie' , sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .wisk {
+    display: block;  
+    margin: 10px auto;  
+    width: 60px;
+  
+    height: auto;  
+}
+  .formp{
+     width:80%;
+    background :transparent;
+    backdrop-filter: blur(30px);
+    margin-left:auto;
+    margin-right:auto;
+     padding-bottom:10px;
+     max-width: 500px;
+     min-width: 300px;
+     border: 1px solid rgb(150, 147, 148);
+     border-radius: 15px;
+     }
+     h2,p{
+       text-align: center;
+     }
+  input,textarea{
+    text-align: center;
+    background : transparent;
+    border: .5px solid rgba(247, 241, 252, 0.341);
+    color: aliceblue;
+  }
+  input::placeholder{
+    color: aliceblue;
+  }
+  select{
+    color: rgb(20, 17, 17);
+    border-color: rgb(253, 252, 252);
+    background-color: rgb(243, 242, 242);
+  }
+  fieldset{
+    border:none;
+    padding: 2em auto;
+    border-bottom: 3px solid rgb(150, 147, 148);
+  }
+  fieldset:last-of-type{
+    border-bottom: none;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 10px; 
+    padding-bottom: 2em;
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color:rgba(47, 10, 90, 0.149);
+    min-width: 300px;
+    color: azure;
+    border-radius: 40px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
+  
+  
